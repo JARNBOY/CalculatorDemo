@@ -15,7 +15,25 @@
 		FBB6266929838932005F07F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB6266729838932005F07F5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FB2AD31B29838F8F006AB802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB2AD31629838F8F006AB802 /* LogicCalculate.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FBB626332983778F005F07F5;
+			remoteInfo = LogicCalculate;
+		};
+		FB2AD31D29838F8F006AB802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB2AD31629838F8F006AB802 /* LogicCalculate.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FBB6264629838313005F07F5;
+			remoteInfo = LogicCalculateTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		FB2AD31629838F8F006AB802 /* LogicCalculate.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LogicCalculate.xcodeproj; path = ../../LogicCalculate/LogicCalculate.xcodeproj; sourceTree = "<group>"; };
 		FBB6265929838930005F07F5 /* CalculatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB6265C29838930005F07F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBB6265E29838930005F07F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB2AD31729838F8F006AB802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB2AD31C29838F8F006AB802 /* LogicCalculate.framework */,
+				FB2AD31E29838F8F006AB802 /* LogicCalculateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		FBB6265029838930005F07F5 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +90,7 @@
 				FBB6266529838932005F07F5 /* Assets.xcassets */,
 				FBB6266729838932005F07F5 /* LaunchScreen.storyboard */,
 				FBB6266A29838932005F07F5 /* Info.plist */,
+				FB2AD31629838F8F006AB802 /* LogicCalculate.xcodeproj */,
 			);
 			path = CalculatorDemo;
 			sourceTree = "<group>";
@@ -113,12 +141,35 @@
 			mainGroup = FBB6265029838930005F07F5;
 			productRefGroup = FBB6265A29838930005F07F5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FB2AD31729838F8F006AB802 /* Products */;
+					ProjectRef = FB2AD31629838F8F006AB802 /* LogicCalculate.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FBB6265829838930005F07F5 /* CalculatorDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FB2AD31C29838F8F006AB802 /* LogicCalculate.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LogicCalculate.framework;
+			remoteRef = FB2AD31B29838F8F006AB802 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FB2AD31E29838F8F006AB802 /* LogicCalculateTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LogicCalculateTests.xctest;
+			remoteRef = FB2AD31D29838F8F006AB802 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FBB6265729838930005F07F5 /* Resources */ = {
