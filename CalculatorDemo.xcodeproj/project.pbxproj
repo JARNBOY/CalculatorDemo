@@ -13,26 +13,9 @@
 		FBB6266429838930005F07F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB6266229838930005F07F5 /* Main.storyboard */; };
 		FBB6266629838932005F07F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB6266529838932005F07F5 /* Assets.xcassets */; };
 		FBB6266929838932005F07F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB6266729838932005F07F5 /* LaunchScreen.storyboard */; };
-		FBDBD553299E02CA00D88AD7 /* LogicCalculate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDBD550299E02C300D88AD7 /* LogicCalculate.framework */; };
-		FBDBD554299E02CA00D88AD7 /* LogicCalculate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FBDBD550299E02C300D88AD7 /* LogicCalculate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FBC59D0E299E04F9007ED6FF /* LogicCalculate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDBD522299DEADA00D88AD7 /* LogicCalculate.framework */; };
+		FBC59D0F299E04F9007ED6FF /* LogicCalculate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FBDBD522299DEADA00D88AD7 /* LogicCalculate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FBDBD54F299E02C300D88AD7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FBDBD54A299E02C300D88AD7 /* LogicCalculate.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FBB626332983778F005F07F5;
-			remoteInfo = LogicCalculate;
-		};
-		FBDBD551299E02C300D88AD7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FBDBD54A299E02C300D88AD7 /* LogicCalculate.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FBB6264629838313005F07F5;
-			remoteInfo = LogicCalculateTests;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		FBDBD555299E02CA00D88AD7 /* Embed Frameworks */ = {
@@ -41,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FBDBD554299E02CA00D88AD7 /* LogicCalculate.framework in Embed Frameworks */,
+				FBC59D0F299E04F9007ED6FF /* LogicCalculate.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,7 +44,6 @@
 		FBDBD529299DEBC000D88AD7 /* LogicCalculate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LogicCalculate.framework; path = "../LogicCalculate/build/LogicCalculate.framework-iphoneos.xcarchive/Products/Library/Frameworks/LogicCalculate.framework"; sourceTree = "<group>"; };
 		FBDBD53A299DF63100D88AD7 /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Frameworks; path = "../LogicCalculate/build/LogicCalculate.framework-iphonesimulator.xcarchive/Products/Library/Frameworks"; sourceTree = "<group>"; };
 		FBDBD53B299DF63D00D88AD7 /* LogicCalculate.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LogicCalculate.swiftmodule; path = "../LogicCalculate/build/LogicCalculate.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/LogicCalculate.framework/Modules/LogicCalculate.swiftmodule"; sourceTree = "<group>"; };
-		FBDBD54A299E02C300D88AD7 /* LogicCalculate.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LogicCalculate.xcodeproj; path = ../../LogicCalculate/LogicCalculate.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBDBD553299E02CA00D88AD7 /* LogicCalculate.framework in Frameworks */,
+				FBC59D0E299E04F9007ED6FF /* LogicCalculate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +85,6 @@
 				FBB6266529838932005F07F5 /* Assets.xcassets */,
 				FBB6266729838932005F07F5 /* LaunchScreen.storyboard */,
 				FBB6266A29838932005F07F5 /* Info.plist */,
-				FBDBD54A299E02C300D88AD7 /* LogicCalculate.xcodeproj */,
 			);
 			path = CalculatorDemo;
 			sourceTree = "<group>";
@@ -117,15 +98,6 @@
 				FBDBD522299DEADA00D88AD7 /* LogicCalculate.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FBDBD54B299E02C300D88AD7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FBDBD550299E02C300D88AD7 /* LogicCalculate.framework */,
-				FBDBD552299E02C300D88AD7 /* LogicCalculateTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,35 +147,12 @@
 			mainGroup = FBB6265029838930005F07F5;
 			productRefGroup = FBB6265A29838930005F07F5 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = FBDBD54B299E02C300D88AD7 /* Products */;
-					ProjectRef = FBDBD54A299E02C300D88AD7 /* LogicCalculate.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				FBB6265829838930005F07F5 /* CalculatorDemo */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		FBDBD550299E02C300D88AD7 /* LogicCalculate.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = LogicCalculate.framework;
-			remoteRef = FBDBD54F299E02C300D88AD7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FBDBD552299E02C300D88AD7 /* LogicCalculateTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = LogicCalculateTests.xctest;
-			remoteRef = FBDBD551299E02C300D88AD7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FBB6265729838930005F07F5 /* Resources */ = {
