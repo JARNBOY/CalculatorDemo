@@ -13,27 +13,42 @@
 		FBB6266429838930005F07F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB6266229838930005F07F5 /* Main.storyboard */; };
 		FBB6266629838932005F07F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB6266529838932005F07F5 /* Assets.xcassets */; };
 		FBB6266929838932005F07F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB6266729838932005F07F5 /* LaunchScreen.storyboard */; };
+		FBDBD553299E02CA00D88AD7 /* LogicCalculate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDBD550299E02C300D88AD7 /* LogicCalculate.framework */; };
+		FBDBD554299E02CA00D88AD7 /* LogicCalculate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FBDBD550299E02C300D88AD7 /* LogicCalculate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FB2AD31B29838F8F006AB802 /* PBXContainerItemProxy */ = {
+		FBDBD54F299E02C300D88AD7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FB2AD31629838F8F006AB802 /* LogicCalculate.xcodeproj */;
+			containerPortal = FBDBD54A299E02C300D88AD7 /* LogicCalculate.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = FBB626332983778F005F07F5;
 			remoteInfo = LogicCalculate;
 		};
-		FB2AD31D29838F8F006AB802 /* PBXContainerItemProxy */ = {
+		FBDBD551299E02C300D88AD7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FB2AD31629838F8F006AB802 /* LogicCalculate.xcodeproj */;
+			containerPortal = FBDBD54A299E02C300D88AD7 /* LogicCalculate.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = FBB6264629838313005F07F5;
 			remoteInfo = LogicCalculateTests;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FBDBD555299E02CA00D88AD7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FBDBD554299E02CA00D88AD7 /* LogicCalculate.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		FB2AD31629838F8F006AB802 /* LogicCalculate.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LogicCalculate.xcodeproj; path = ../../LogicCalculate/LogicCalculate.xcodeproj; sourceTree = "<group>"; };
 		FBB6265929838930005F07F5 /* CalculatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB6265C29838930005F07F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBB6265E29838930005F07F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +57,11 @@
 		FBB6266529838932005F07F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBB6266829838932005F07F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBB6266A29838932005F07F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBDBD522299DEADA00D88AD7 /* LogicCalculate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LogicCalculate.framework; path = "../LogicCalculate/build/LogicCalculate.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/LogicCalculate.framework"; sourceTree = "<group>"; };
+		FBDBD529299DEBC000D88AD7 /* LogicCalculate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LogicCalculate.framework; path = "../LogicCalculate/build/LogicCalculate.framework-iphoneos.xcarchive/Products/Library/Frameworks/LogicCalculate.framework"; sourceTree = "<group>"; };
+		FBDBD53A299DF63100D88AD7 /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Frameworks; path = "../LogicCalculate/build/LogicCalculate.framework-iphonesimulator.xcarchive/Products/Library/Frameworks"; sourceTree = "<group>"; };
+		FBDBD53B299DF63D00D88AD7 /* LogicCalculate.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LogicCalculate.swiftmodule; path = "../LogicCalculate/build/LogicCalculate.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/LogicCalculate.framework/Modules/LogicCalculate.swiftmodule"; sourceTree = "<group>"; };
+		FBDBD54A299E02C300D88AD7 /* LogicCalculate.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LogicCalculate.xcodeproj; path = ../../LogicCalculate/LogicCalculate.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,26 +69,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBDBD553299E02CA00D88AD7 /* LogicCalculate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FB2AD31729838F8F006AB802 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FB2AD31C29838F8F006AB802 /* LogicCalculate.framework */,
-				FB2AD31E29838F8F006AB802 /* LogicCalculateTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		FBB6265029838930005F07F5 = {
 			isa = PBXGroup;
 			children = (
 				FBB6265B29838930005F07F5 /* CalculatorDemo */,
 				FBB6265A29838930005F07F5 /* Products */,
+				FBDBD521299DEAD900D88AD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,9 +103,29 @@
 				FBB6266529838932005F07F5 /* Assets.xcassets */,
 				FBB6266729838932005F07F5 /* LaunchScreen.storyboard */,
 				FBB6266A29838932005F07F5 /* Info.plist */,
-				FB2AD31629838F8F006AB802 /* LogicCalculate.xcodeproj */,
+				FBDBD54A299E02C300D88AD7 /* LogicCalculate.xcodeproj */,
 			);
 			path = CalculatorDemo;
+			sourceTree = "<group>";
+		};
+		FBDBD521299DEAD900D88AD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBDBD53B299DF63D00D88AD7 /* LogicCalculate.swiftmodule */,
+				FBDBD53A299DF63100D88AD7 /* Frameworks */,
+				FBDBD529299DEBC000D88AD7 /* LogicCalculate.framework */,
+				FBDBD522299DEADA00D88AD7 /* LogicCalculate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBDBD54B299E02C300D88AD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBDBD550299E02C300D88AD7 /* LogicCalculate.framework */,
+				FBDBD552299E02C300D88AD7 /* LogicCalculateTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +138,7 @@
 				FBB6265529838930005F07F5 /* Sources */,
 				FBB6265629838930005F07F5 /* Frameworks */,
 				FBB6265729838930005F07F5 /* Resources */,
+				FBDBD555299E02CA00D88AD7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,8 +177,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = FB2AD31729838F8F006AB802 /* Products */;
-					ProjectRef = FB2AD31629838F8F006AB802 /* LogicCalculate.xcodeproj */;
+					ProductGroup = FBDBD54B299E02C300D88AD7 /* Products */;
+					ProjectRef = FBDBD54A299E02C300D88AD7 /* LogicCalculate.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -155,18 +189,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		FB2AD31C29838F8F006AB802 /* LogicCalculate.framework */ = {
+		FBDBD550299E02C300D88AD7 /* LogicCalculate.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = LogicCalculate.framework;
-			remoteRef = FB2AD31B29838F8F006AB802 /* PBXContainerItemProxy */;
+			remoteRef = FBDBD54F299E02C300D88AD7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FB2AD31E29838F8F006AB802 /* LogicCalculateTests.xctest */ = {
+		FBDBD552299E02C300D88AD7 /* LogicCalculateTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = LogicCalculateTests.xctest;
-			remoteRef = FB2AD31D29838F8F006AB802 /* PBXContainerItemProxy */;
+			remoteRef = FBDBD551299E02C300D88AD7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -267,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -321,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -339,6 +373,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 85JY49Q86S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CalculatorDemo",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CalculatorDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -367,6 +405,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 85JY49Q86S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CalculatorDemo",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CalculatorDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
